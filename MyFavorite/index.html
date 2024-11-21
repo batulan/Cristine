@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>MyFavorite</title>
+</head>
+<body>
+<header>
+    <img src="logo.jpg" alt="MyFavorite" title="MyFavorite - Escape">
+</header>
+<hr>
+<nav>
+    <table cellspacing="5" cellpadding="5">
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="article.html">Articles</a></td>
+            <td><a href="habits.html">Habits</a></td>
+            <td><a href="skills.html">Skills</a></td>
+            <td><a href="quotes.html">Quotes</a></td>
+            <td><a href="books.html">Books</a></td>
+            <td><button id="loginBtn" class="login-button">Login</button></td>
+        </tr>
+    </table>
+</nav>
+<hr>
+<h2>Welcome to MyFavorite!</h2>
+<p>
+    Where memories are made, moments are cherished, passions connect, friendships blossom, adventure begins, dream take flights, and where the unexpected awaits.....
+</p>
+<img src="img1.jpg" width="100%" height="100%" title="When I fly Towards You">
+<ul>
+    <li>Our paths intertwined unexpectedly.</li>
+    <li>A chance encounter, a lifelong bond.</li>
+    <li>Across oceans, our hearts beat as one</li>
+    <li>Every step closer, a leap of faith.</li>
+    <li>Fate tested our resolve.</li>
+    <li>A silent promise, a whispered hope.</li>
+    <li>Your smile is my sunshine.</li>
+</ul>
+<hr>
+<div class="popup" id="loginPopup">
+    <div class="popup-content">
+        <span class="close" id="closeBtn">&times;</span>
+        <h2>Login</h2>
+        <form action="your_login_processing_script.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
+
+<script src="js.js"></script>
+
+</body>
+</html>
